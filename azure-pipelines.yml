@@ -6,12 +6,11 @@
 trigger:
 - main
 
-jobs:
-- job: A
-  pool:
-   vmImage: ubuntu-latest
-  steps:
-    - bash: echo "A"
+
+pool:
+  vmImage: ubuntu-latest
+steps:
+  - bash: echo "A"
 
 
 # steps:
